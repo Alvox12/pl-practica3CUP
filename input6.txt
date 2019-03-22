@@ -1,0 +1,4 @@
+bool rico;
+num sueldo
+&&
+45 = 40 * 5 * 2E2
