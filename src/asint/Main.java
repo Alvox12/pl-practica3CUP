@@ -10,7 +10,7 @@ import java_cup.parser;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-	     Reader input = new InputStreamReader(new FileInputStream("input4.txt"));
+	     Reader input = new InputStreamReader(new FileInputStream("input.txt"));
 		 AnalizadorLexico alex = new AnalizadorLexico(input);
 		 AnalizadorSintactico asint = new AnalizadorSintactico(alex);
 		 //asint.setScanner(alex);
